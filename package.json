@@ -1,0 +1,32 @@
+{
+  "name": "lg-temadag-traditioner-2017",
+  "version": "1.0.0",
+  "description": "Website created for a project plan during the Finland 100 event at Lovisa Gymnasium.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:prod": "NODE_ENV=production node server.js",
+    "test": "standard && eslint **"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LWTechGaming/lg-temadag-traditioner-2017.git"
+  },
+  "author": "Linus Willner <lwtechgaming@gmail.com>",
+  "license": "CC-BY-3.0",
+  "bugs": {
+    "url": "https://github.com/LWTechGaming/lg-temadag-traditioner-2017/issues"
+  },
+  "homepage": "https://github.com/LWTechGaming/lg-temadag-traditioner-2017#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "standard": "^10.0.3"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/*
+*.sh
+*.bat
+*.json
+*.log
+*.md
+*.txt
+*.exe
+*.rdb

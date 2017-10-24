@@ -1,0 +1,9 @@
+{
+  "port": 8000,
+  "host": "localhost",
+  "docRoot": "./public",
+  "openBrowser": false,
+  "notFoundFile": "public/404.html",
+  "waitBeforeReload": 1000,
+  "logLevel": 0
+}

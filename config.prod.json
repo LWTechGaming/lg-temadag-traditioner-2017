@@ -5,5 +5,5 @@
   "openBrowser": false,
   "notFoundFile": "404.html",
   "waitBeforeReload": 1000,
-  "logLevel": 0
+  "logLevel": 1
 }

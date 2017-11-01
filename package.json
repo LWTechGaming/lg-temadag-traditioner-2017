@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "start:prod": "NODE_ENV=production node server.js",
+    "start-prod": "set NODE_ENV=production && node server.js",
     "test": "standard && eslint **"
   },
   "repository": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/LWTechGaming/lg-temadag-traditioner-2017#readme",
   "dependencies": {
+    "color": "^2.0.0",
     "live-server": "^1.2.0"
   },
   "devDependencies": {

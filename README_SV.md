@@ -16,6 +16,8 @@ Allt material på denna sida (Planer, text, bilder, källkod) är licenserat und
 
 ## Bruksanvisningar
 
+### Startande av servern
+
 Om du vill ta en titt på webbsidan själv, eller göra ändringar till den, gör då enligt följande.
 
 Observera att programmet kräver vissa drivrutiner och -system för användning:
@@ -27,9 +29,31 @@ För att starta webbsidan på din egen dator, gör så här:
 
 1. Klona denna kodbas till din dator: `git clone https://github.com/LWTechGaming/lg-temadag-traditioner-2017.git` (Eller ladda ner [ZIP-paket](https://github.com/LWTechGaming/lg-temadag-traditioner-2017/archive/master.zip))
 2. Gå till foldret där kodbasen finns, och kör `npm install` med kommandotolken.
-3. Ifall du vill, ändra på inställningarna i utvecklings- (`config.dev.json`) eller produktionskonfigurationen (`config.prod.json`).
+3. Ifall du vill, ändra på inställningarna i utvecklings- (`config.dev.json`) eller produktionskonfigurationen (`config.prod.json`) - för information om värdena, se [Konfiguration](#konfiguration).
 4. Kör `npm start` (Utvecklingsläge) eller `npm run start:prod` (Produktionsläge) i kodbasens folder med kommandotolken.
 5. Öppna `localhost:8000` (Standardinställning) i en webbläsare om den inte redan har öppnats, och surfa runt!
+
+### Konfiguration
+
+Mittdelen av konfigurationsfilens namn bestämmer vilket läge det är till för, utveckling (dev) eller produktion (prod). I utvecklingsläge...
+
+- Laddas webbläsarfönstret om snabbare vid ändringar (500 ms per standard).
+- Öppnas ett webbläsarfönster när servern startas.
+- Skickas mera logginformation till konsolen medan servern är påslagen.
+
+Härmed rekommederas användande av produktionskonfigurationen vid presentation av konceptet. **OBS:** Använd inte den bifogade servern för att visa webbsidan på internet, använd en verklig webserver som Apache eller Nginx för detta bruk!
+
+Konfigurationsfilen innehåller följande värden:
+
+| Värde | Beskrivning | Typ | Standard |
+| ----- | ----------- | --- | -------- |
+| port | Nätverksporten som servern körs på. | Siffra | 8000 |
+| host | URL-addressen som servern körs på. | Sträng | localhost |
+| docRoot | Folder varifrån webbsidans filer visas. | Sträng | ./public |
+| openBrowser | Öppna ett webbläsarfönster när servern starts. | Boolesk | true |
+| notFoundFile | Webbsida som visas när en resurs som inte finns på servern försöker kommas åt. Observera [detta med filen](https://github.com/tapio/live-server/issues/225). | Sträng | 404.html |
+| waitBeforeReload | Tiden i millisekunder att vänta förrän webbläsarfönstret laddas om. | Siffra (ms) | 500/1000 |
+| logLevel | Nivån av logginformation som skickas till konsolen. 0 = endast felmeddelanden, 1 = viktig information, 2 = allting. | Siffra | 2/1 |
 
 ## Deltagarnas tack
 

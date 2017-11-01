@@ -6,7 +6,7 @@
 
 The project "Bastuns Dag" (Swedish: "Day of the Sauna") is a concept for a local or national event, designed at Lovisa Gymnasium during the 100 years of Finland event at the school. In a project tasking spanning over two days, a group consisting of roughly 20 students spent time on planning an event that would strengthen the national spirit in our country. The idea was to gather our otherwise quite shattered population around a common tradition.
 
-The project involved a lot of cooperation in the shape of brainstorming, gathering of ideas, organisation and putting the entire thing together into a coherent, presentable piece of work. The entire group has contributed to the planning and design phase, while the technical work (Code, portable webserver etc.) and final shaping of the presentation has been made by Linus Willner ([@LWTechGaming](https://github.com/LWTechGaming)).
+The project involved a lot of cooperation in the shape of brainstorming, gathering of ideas, organisation and putting the entire thing together into a coherent, presentable piece of work. The entire group has contributed to the planning and design phase, while the technical work (Code, portable webserver etc.) and final shaping of the presentation has been done by Linus Willner ([@LWTechGaming](https://github.com/LWTechGaming)).
 
 ## Usage of this project
 

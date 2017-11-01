@@ -2,7 +2,20 @@ const webServer = require('live-server')
 
 // Require config based on NODE_ENV
 let Config
-process.env.NODE_ENV === 'production' ? Config = require('./config.prod.json') : Config = require('./config.dev.json')
+
+if (process.env.NODE_ENV) {
+  console.log('Starting in production mode...'.green)
+  Config = require('./config.prod.json')
+} else {
+  console.log('Starting in development mode...'.green)
+  Config = require('./config.dev.json')
+}
+
+// Handle the edge case where the config doesn't load
+if (!Config) {
+  console.log('Config failed to load! Exiting...'.red)
+  process.exit()
+}
 
 // Start webserver
 webServer.start({

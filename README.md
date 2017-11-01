@@ -16,6 +16,8 @@ All material on this site (Plans, text, images, source code) is licensed under t
 
 ## Instructions
 
+### Running the server
+
 If you want to look at the website yourself, or make changes to it, do the following.
 
 Please note that the program requires certain runtimes and tools to run. These are:
@@ -27,9 +29,31 @@ To start the website on your own computer, do the following:
 
 1. Clone this repository: `git clone https://github.com/LWTechGaming/lg-temadag-traditioner-2017.git` (Or download the [ZIP package](https://github.com/LWTechGaming/lg-temadag-traditioner-2017/archive/master.zip))
 2. Browse to the repository folder, and run `npm install` in your command prompt.
-3. If you wish, change the settings in the development (`config.dev.json`) or production (`config.prod.json`) configurations.
+3. If you wish, change the settings in the development (`config.dev.json`) or production (`config.prod.json`) configurations - for information about the values, see [Configuration](#configuration).
 4. Run `npm start` (Development mode) or `npm run start:prod` (Production mode) in the repository folder with the command prompt.
 5. If not already opened, open `localhost:8000` (Default setting) in your web browser of choice, and surf to your heart's content!
+
+### Configuration
+
+The middle part of the configuration file's name decides which mode it is for, development (dev) or production (prod). Development mode has some differences from the production mode, namely:
+
+- It reloads the browser faster on change (500 ms per default).
+- It opens the browser window on server start.
+- It outputs more verbose logging information to the console.
+
+As such, it's recommended to use the production config when presenting the concept. **Note:** Don't use the server to display the website online, use a proper webserver like Apache or Nginx for that!
+
+The configuration files contain the following values:
+
+| Value | Description | Type | Default |
+| ----- | ----------- | ---- | ------- |
+| port | Port to run the webserver on. | Number | 8000 |
+| host | Host URL to run the webserver on. | String | localhost |
+| docRoot | Directory from which to serve the website. | String | ./public |
+| openBrowser | Open a browser window when the webserver launches. | Boolean | true |
+| notFoundFile | File to display when the user attempts to access a resource that doesn't exist on the server[*](https://github.com/tapio/live-server/issues/225). | String | 404.html |
+| waitBeforeReload | Amount of time in milliseconds before reloading the browser window. | Number (ms) | 500/1000 |
+| logLevel | The level of logging output to display in console. 0 = errors only, 1 = only important, 2 = everything. |
 
 ## Thank you from the contributors
 

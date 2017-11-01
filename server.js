@@ -11,7 +11,7 @@ if (process.env.NODE_ENV) {
   Config = require('./config.dev.json')
 }
 
-// Handle the edge case where the config doesn't load
+// Handle the edge case where the config doesn't load for some reason
 if (!Config) {
   console.log('Config failed to load! Exiting...'.red)
   process.exit()

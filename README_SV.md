@@ -41,7 +41,7 @@ Mittdelen av konfigurationsfilens namn bestämmer vilket läge det är till för
 - Öppnas ett webbläsarfönster när servern startas.
 - Skickas mera logginformation till konsolen medan servern är påslagen.
 
-Härmed är det rekommenderat att använda produktionskonfigurationen vid presentation av konceptet. **OBS:** Använd inte den bifogade servern för att visa webbsidan på internet, använd en verklig webserver som Apache eller Nginx för detta bruk!
+Härmed rekommederas användande av produktionskonfigurationen vid presentation av konceptet. **OBS:** Använd inte den bifogade servern för att visa webbsidan på internet, använd en verklig webserver som Apache eller Nginx för detta bruk!
 
 Konfigurationsfilen innehåller följande värden:
 

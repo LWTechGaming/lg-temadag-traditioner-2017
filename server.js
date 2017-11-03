@@ -3,7 +3,7 @@ const webServer = require('live-server')
 // Require config based on NODE_ENV
 let Config
 
-if (process.env.NODE_ENV) {
+if (process.env.NODE_ENV === 'production') {
   console.log('Starting in production mode...'.green)
   Config = require('./config.prod.json')
 } else {
@@ -17,8 +17,8 @@ if (!Config) {
   process.exit()
 }
 
-// Start webserver
-webServer.start({
+// Define webserver options
+let options = {
   port: Config.port,
   host: Config.host,
   root: Config.docRoot,
@@ -26,4 +26,7 @@ webServer.start({
   file: Config.notFoundFile,
   wait: Config.waitBeforeReload,
   logLevel: Config.logLevel
-})
+}
+
+// Start webserver
+webServer.start(options)

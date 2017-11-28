@@ -1,17 +1,19 @@
 const webServer = require('live-server')
+const argv = require('yargs').argv
 
-// Require config based on NODE_ENV
+// Init config variable
 let Config
 
-if (process.env.NODE_ENV === 'production') {
-  console.log('Starting in production mode...'.green)
+// If the program is started with --production, use production config
+if (argv.production) {
+  console.log('Starting in production mode...'.magenta)
   Config = require('./config.prod.json')
 } else {
-  console.log('Starting in development mode...'.green)
+  console.log('Starting in development mode...'.magenta)
   Config = require('./config.dev.json')
 }
 
-// Handle the edge case where the config doesn't load for some reason
+// Handle edge case of config not loading
 if (!Config) {
   console.log('Config failed to load! Exiting...'.red)
   process.exit()

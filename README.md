@@ -53,7 +53,7 @@ The configuration files contain the following values:
 | openBrowser | Open a browser window when the webserver launches. | Boolean | true |
 | notFoundFile | File to display when the user attempts to access a resource that doesn't exist on the server[*](https://github.com/tapio/live-server/issues/225). | String | 404.html |
 | waitBeforeReload | Amount of time in milliseconds before reloading the browser window. | Number (ms) | 500/1000 |
-| logLevel | The level of logging output to display in console. 0 = errors only, 1 = only important, 2 = everything. |
+| logLevel | The level of logging output to display in console. 0 = errors only, 1 = only important, 2 = everything. | Number | 2/1 |
 
 ## Thank you from the contributors
 

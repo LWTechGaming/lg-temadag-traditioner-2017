@@ -1,0 +1,32 @@
+{
+  "pages": [
+    {
+      "pageName": "Hemsida",
+      "pageFile": "index.html"
+    },
+    {
+      "pageName": "Information",
+      "pageFile": "information.html"
+    },
+    {
+      "pageName": "Öppna bastur",
+      "pageFile": "oppnadorrar.html"
+    },
+    {
+      "pageName": "Tävlingar",
+      "pageFile": "tavlingar.html"
+    },
+    {
+      "pageName": "Bastusånger",
+      "pageFile": "sanger.html"
+    },
+    {
+      "pageName": "Produkter",
+      "pageFile": "produkter.html"
+    },
+    {
+      "pageName": "Rökbastuinitiativ",
+      "pageFile": "rokbastun.html"
+    }
+  ]
+}

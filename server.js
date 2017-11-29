@@ -1,5 +1,6 @@
-const webServer = require('live-server')
+const server = require('live-server')
 const argv = require('yargs').argv
+const colors = require('colors') // eslint-disable-line no-unused-vars
 
 // Init config variable
 let Config
@@ -31,4 +32,4 @@ let options = {
 }
 
 // Start webserver
-webServer.start(options)
+server.start(options)

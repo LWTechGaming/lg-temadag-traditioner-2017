@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/LWTechGaming/lg-temadag-traditioner-2017#readme",
   "dependencies": {
-    "color": "^2.0.0",
+    "colors": "^1.1.2",
     "live-server": "^1.2.0",
     "yargs": "^10.0.3"
   },

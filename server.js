@@ -7,11 +7,11 @@ let Config
 
 // If the program is started with --production, use production config
 if (argv.production) {
-  console.log('Starting in production mode...'.magenta)
   Config = require('./config.prod.json')
+  console.log(`Starting in production mode on http://${Config.host}:${Config.port}...`.magenta)
 } else {
-  console.log('Starting in development mode...'.magenta)
   Config = require('./config.dev.json')
+  console.log(`Starting in development mode on http://${Config.host}:${Config.port}...`.magenta)
 }
 
 // Handle edge case of config not loading

@@ -8,6 +8,8 @@ Projektet "Bastuns Dag" är ett koncept för ett både lokalt och nationellt eve
 
 I arbetet ingick mycket samarbete i form av brainstorming, idésamlande, uppläggning och sammanställande av det hela till en koherent, presentationsduglig helhet. Hela gruppen har deltagit i planerings- och designfasen, medan det tekniska utförandet (Kod, flyttbar webserver etc.) och formingen av presentationen har skötts av Linus Willner ([@LWTechGaming](https://github.com/LWTechGaming)).
 
+Arbetet bedömdes av en jury 8.12.2017 tillsammans med omkring tio andra projekt, och slutligen tog detta projekt hem segern. Bland motiveringarna för valet hördes det att projektet var mcyket produktionsdugligt, presentationsformatet var innovativt och att arbetet genomskärrades av sammanhållning och gemenskap ända ner till grundidén.
+
 ## Bruk av detta projekt
 
 Det som framställs på webbsidan är fiktivt tills vidare, men är planerat med realistiska förväntningar. Det torde inte vara helt omöjligt att utföra åtminstone vissa delar av denna plan på lokal nivå.

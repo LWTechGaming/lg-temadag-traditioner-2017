@@ -8,6 +8,8 @@ The project "Bastuns Dag" (Swedish: "Day of the Sauna") is a concept for a local
 
 The project involved a lot of cooperation in the shape of brainstorming, gathering of ideas, organisation and putting the entire thing together into a coherent, presentable piece of work. The entire group has contributed to the planning and design phase, while the technical work (Code, portable webserver etc.) and final shaping of the presentation has been done by Linus Willner ([@LWTechGaming](https://github.com/LWTechGaming)).
 
+On 8th December 2017, a three-man jury reviewed this project along with approximately ten other projects, and in the end this project emerged victorious. Some of the reasons for the choice were that the plan was of production quality and could be accomplished in real life, that the presentation format was innovative and that the concept of working and being together was present throughout the plan, all the way down to the basic idea.
+
 ## Usage of this project
 
 The ideas depicted on the website are ficticious, for now. They have, however, been planned with realistic expectations in mind. It shouldn't be absolutely impossible to accomplish at least parts of this plan on a local level.

@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LWTechGaming/lg-temadag-traditioner-2017.git"
+    "url": "git+https://github.com/linuswillner/lg-temadag-traditioner-2017.git"
   },
-  "author": "Linus Willner <lwtechgaming@gmail.com>",
+  "author": "Linus Willner <hello@linuswillner.me>",
   "license": "CC-BY-3.0",
   "bugs": {
-    "url": "https://github.com/LWTechGaming/lg-temadag-traditioner-2017/issues"
+    "url": "https://github.com/linuswillner/lg-temadag-traditioner-2017/issues"
   },
-  "homepage": "https://github.com/LWTechGaming/lg-temadag-traditioner-2017#readme",
+  "homepage": "https://github.com/linuswillner/lg-temadag-traditioner-2017#readme",
   "dependencies": {
     "colors": "^1.1.2",
     "live-server": "^1.2.0",

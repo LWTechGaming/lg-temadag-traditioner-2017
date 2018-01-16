@@ -6,7 +6,7 @@
 
 Projektet "Bastuns Dag" är ett koncept för ett både lokalt och nationellt evenemang som designades vid Lovisa Gymnasium under Finland 100 år-temadagarna vid skolan. I ett projektarbete med räckvidden av två dagar spenderade en grupp på drygt 20 studerande tid på att planera ett evenemang som skulle stärka folkandan i vårt land. Idén var att samla vårt annars ganska splittrade folk tillsammans kring en gemensam tradition.
 
-I arbetet ingick mycket samarbete i form av brainstorming, idésamlande, uppläggning och sammanställande av det hela till en koherent, presentationsduglig helhet. Hela gruppen har deltagit i planerings- och designfasen, medan det tekniska utförandet (Kod, flyttbar webserver etc.) och formingen av presentationen har skötts av Linus Willner ([@LWTechGaming](https://github.com/LWTechGaming)).
+I arbetet ingick mycket samarbete i form av brainstorming, idésamlande, uppläggning och sammanställande av det hela till en koherent, presentationsduglig helhet. Hela gruppen har deltagit i planerings- och designfasen, medan det tekniska utförandet (Kod, flyttbar webserver etc.) och formingen av presentationen har skötts av Linus Willner ([@linuswillner](https://github.com/linuswillner)).
 
 Arbetet bedömdes av en jury 8.12.2017 tillsammans med omkring tio andra projekt, och slutligen tog detta projekt hem segern. Bland motiveringarna för valet hördes det att projektet var mcyket produktionsdugligt, presentationsformatet var innovativt och att arbetet genomskärrades av sammanhållning och gemenskap ända ner till grundidén.
 
